@@ -28,3 +28,55 @@
     justify-content: space-between;
     font-size: 18px;
 }
+
+.under-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    margin-top: 50px;
+}
+
+.text-under h1{
+    width: 300px;
+    font-size: 45px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    color:white;
+}
+
+.text-under p{
+    width: 400px;
+    display: flex;
+    margin-left: 100px;
+    color: lightgray;
+}
+
+.button{
+    display: flex;
+    margin-left: 100px;
+}
+
+.button .individual-button{
+    background-color: rgb(60, 108, 212);
+    color: white;
+    display: flex;
+    padding: 10px 35px;
+    border-radius: 10%;
+    font-weight:bold;
+
+}
+
+.placeholder{
+    width:400px;
+    height:200px;
+    background-color:grey;
+    margin-left: 50px;
+    text-align:center;
+    box-sizing: border-box;
+    padding-top: 100px;
+    color: white;
+
+}
