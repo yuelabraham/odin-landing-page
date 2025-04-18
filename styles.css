@@ -1,0 +1,30 @@
+.top{
+    width: 100%;
+    height: 500px;
+    background-color:rgb(41, 46, 58);
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px
+}
+
+.header{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.links {
+    color: lightgray;
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
