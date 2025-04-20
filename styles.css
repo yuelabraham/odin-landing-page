@@ -80,3 +80,136 @@
     color: white;
 
 }
+
+.middle{
+    background-color:white;
+    width: 100%;
+    height:500px;
+}
+
+.header-two{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.header-two h2{
+    font-size: 36px;
+    margin: 0;
+    color: black;
+}
+
+.cards-container{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card{
+    border: 5px solid #5394ed;
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.text-container{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+}
+
+.card-text{
+    width: 180px;
+    height: 80px;
+    color:grey;
+    font-size:18px;
+    text-align:center;
+}
+
+.bottom{
+    background-color:lightgray;
+    width:100%;
+    height: 400px;
+}
+
+.bottom-quote{
+    font-family: light italic;
+    font-size: 25px;
+    display: flex;
+    padding-top: 150px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.author{
+    margin-left: 900px;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.bottom-two{
+    width: 100%;
+    height:200px;
+}
+
+.container{
+    background-color:#5394ed;
+    height: 70px;
+    width: 50%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.text-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:5px;
+}
+
+.action-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.call{
+    font-weight:bold;
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.sign-up{
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer{
+    background-color: rgb(36, 39, 64);
+    height: 110px;
+    width: 100%
+}
+
+.footer-detail{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
